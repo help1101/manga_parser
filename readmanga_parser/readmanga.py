@@ -98,19 +98,25 @@ class ReadManga:
 
         items = self.get_content(manga_url)
         manga_slides = items.select('.reader-controller')
+
         for i in manga_slides:
             script = str(i.find('script', type="text/javascript"))
 
         script_array = script.split()
-
         manga_pages = main(script_array)
+        next_chapter_url = script_array[13].replace('"', '').replace(';', '')
 
-        with open('manga_pages.json', 'w', encoding='utf-8') as file:
-            file.write(json.dumps(manga_pages, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-        return json.dumps(manga_pages, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+        manga_reader = {
+            "next_chapter_url": next_chapter_url,
+            "manga_pages": manga_pages
+        }
+
+        with open('manga_reader.json', 'w', encoding='utf-8') as file:
+            file.write(json.dumps(manga_reader, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+        return json.dumps(manga_reader, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
 
 
 q = ReadManga()
 # q.get_manga('/eta_farforovaia_kukla_vliubilas/')
 # q.get_list_of_popular_titles()
-# q.reader('/dosanko_giaru_chudo_kak_mily__A5238/vol0/1')
+# q.reader('/eta_farforovaia_kukla_vliubilas/vol1/1')
