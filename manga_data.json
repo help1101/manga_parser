@@ -1,151 +1,382 @@
 {
     "chapters": [
         {
-            "chapter": "3 - 22",
-            "date": "23.02.22",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/22"
+            "chapter": "10 - 72",
+            "date": "08.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol10/72"
         },
         {
-            "chapter": "3 - 21.5",
-            "date": "31.01.22",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/21.5"
+            "chapter": "9 - 71",
+            "date": "06.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/71"
+        },
+        {
+            "chapter": "9 - 70",
+            "date": "06.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/70"
+        },
+        {
+            "chapter": "9 - 69",
+            "date": "02.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/69"
+        },
+        {
+            "chapter": "9 - 68",
+            "date": "01.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/68"
+        },
+        {
+            "chapter": "9 - 67",
+            "date": "08.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/67"
+        },
+        {
+            "chapter": "9 - 66",
+            "date": "05.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/66"
+        },
+        {
+            "chapter": "9 - 65",
+            "date": "04.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/65"
+        },
+        {
+            "chapter": "9 - 64",
+            "date": "20.02.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol9/64"
+        },
+        {
+            "chapter": "8 - 63",
+            "date": "13.02.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/63"
+        },
+        {
+            "chapter": "8 - 62",
+            "date": "07.03.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/62"
+        },
+        {
+            "chapter": "8 - 61",
+            "date": "17.02.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/61"
+        },
+        {
+            "chapter": "8 - 60",
+            "date": "05.02.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/60"
+        },
+        {
+            "chapter": "8 - 59",
+            "date": "15.01.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/59"
+        },
+        {
+            "chapter": "8 - 58",
+            "date": "03.01.22",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/58"
+        },
+        {
+            "chapter": "8 - 57",
+            "date": "07.12.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/57"
+        },
+        {
+            "chapter": "8 - 56",
+            "date": "01.11.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol8/56"
+        },
+        {
+            "chapter": "7 - 55",
+            "date": "18.10.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/55"
+        },
+        {
+            "chapter": "7 - 54",
+            "date": "05.07.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/54"
+        },
+        {
+            "chapter": "7 - 53",
+            "date": "19.05.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/53"
+        },
+        {
+            "chapter": "7 - 52",
+            "date": "20.04.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/52"
+        },
+        {
+            "chapter": "7 - 51",
+            "date": "04.04.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/51"
+        },
+        {
+            "chapter": "7 - 50",
+            "date": "14.03.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/50"
+        },
+        {
+            "chapter": "7 - 49",
+            "date": "22.02.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/49"
+        },
+        {
+            "chapter": "7 - 48",
+            "date": "08.02.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol7/48"
+        },
+        {
+            "chapter": "6 - 47",
+            "date": "30.01.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/47"
+        },
+        {
+            "chapter": "6 - 46",
+            "date": "20.01.21",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/46"
+        },
+        {
+            "chapter": "6 - 45",
+            "date": "16.11.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/45"
+        },
+        {
+            "chapter": "6 - 44",
+            "date": "16.11.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/44"
+        },
+        {
+            "chapter": "6 - 43",
+            "date": "24.10.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/43"
+        },
+        {
+            "chapter": "6 - 42",
+            "date": "22.09.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/42"
+        },
+        {
+            "chapter": "6 - 41",
+            "date": "27.08.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/41"
+        },
+        {
+            "chapter": "6 - 40",
+            "date": "05.08.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol6/40"
+        },
+        {
+            "chapter": "5 - 39",
+            "date": "10.07.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/39"
+        },
+        {
+            "chapter": "5 - 38",
+            "date": "02.07.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/38"
+        },
+        {
+            "chapter": "5 - 37",
+            "date": "12.06.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/37"
+        },
+        {
+            "chapter": "5 - 36",
+            "date": "31.05.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/36"
+        },
+        {
+            "chapter": "5 - 35",
+            "date": "17.05.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/35"
+        },
+        {
+            "chapter": "5 - 34",
+            "date": "04.05.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/34"
+        },
+        {
+            "chapter": "5 - 33",
+            "date": "05.04.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/33"
+        },
+        {
+            "chapter": "5 - 32",
+            "date": "05.04.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol5/32"
+        },
+        {
+            "chapter": "4 - 31",
+            "date": "12.03.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/31"
+        },
+        {
+            "chapter": "4 - 30",
+            "date": "19.02.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/30"
+        },
+        {
+            "chapter": "4 - 29",
+            "date": "29.01.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/29"
+        },
+        {
+            "chapter": "4 - 28",
+            "date": "23.01.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/28"
+        },
+        {
+            "chapter": "4 - 27",
+            "date": "23.01.20",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/27"
+        },
+        {
+            "chapter": "4 - 26",
+            "date": "26.12.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/26"
+        },
+        {
+            "chapter": "4 - 25",
+            "date": "17.12.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/25"
+        },
+        {
+            "chapter": "4 - 24",
+            "date": "25.11.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol4/24"
+        },
+        {
+            "chapter": "3 - 23",
+            "date": "16.11.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/23"
+        },
+        {
+            "chapter": "3 - 22",
+            "date": "06.11.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/22"
         },
         {
             "chapter": "3 - 21",
-            "date": "27.01.22",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/21"
-        },
-        {
-            "chapter": "3 - 20.5",
-            "date": "02.01.22",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/20.5"
+            "date": "19.10.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/21"
         },
         {
             "chapter": "3 - 20",
-            "date": "02.01.22",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/20"
+            "date": "09.10.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/20"
         },
         {
             "chapter": "3 - 19",
-            "date": "09.12.21",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/19"
+            "date": "09.10.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/19"
         },
         {
             "chapter": "3 - 18",
-            "date": "01.11.21",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/18"
+            "date": "17.09.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/18"
         },
         {
             "chapter": "3 - 17",
-            "date": "14.07.21",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol3/17"
+            "date": "17.09.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/17"
         },
         {
-            "chapter": "2 - 16",
-            "date": "14.06.21",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/16"
+            "chapter": "3 - 16",
+            "date": "08.09.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol3/16"
         },
         {
             "chapter": "2 - 15",
-            "date": "15.03.21",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/15"
+            "date": "19.08.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/15"
         },
         {
             "chapter": "2 - 14",
-            "date": "07.01.21",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/14"
+            "date": "19.08.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/14"
         },
         {
             "chapter": "2 - 13",
-            "date": "10.10.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/13"
+            "date": "08.08.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/13"
         },
         {
             "chapter": "2 - 12",
-            "date": "12.09.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/12"
+            "date": "22.07.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/12"
         },
         {
             "chapter": "2 - 11",
-            "date": "10.08.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/11"
+            "date": "09.07.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/11"
         },
         {
             "chapter": "2 - 10",
-            "date": "09.07.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/10"
+            "date": "28.06.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/10"
         },
         {
             "chapter": "2 - 9",
-            "date": "29.06.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/9"
+            "date": "17.06.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/9"
         },
         {
             "chapter": "2 - 8",
-            "date": "11.05.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol2/8"
-        },
-        {
-            "chapter": "1 Экстра Экстра",
-            "date": "06.03.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/8"
+            "date": "03.06.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol2/8"
         },
         {
             "chapter": "1 - 7",
-            "date": "06.03.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/7"
+            "date": "23.05.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol1/7"
         },
         {
             "chapter": "1 - 6",
-            "date": "10.02.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/6"
+            "date": "22.04.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol1/6"
         },
         {
             "chapter": "1 - 5",
-            "date": "29.01.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/5"
+            "date": "14.04.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol1/5"
         },
         {
             "chapter": "1 - 4",
-            "date": "06.01.20",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/4"
+            "date": "08.03.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol1/4"
         },
         {
             "chapter": "1 - 3",
-            "date": "09.11.19",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/3"
+            "date": "28.02.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol1/3"
         },
         {
             "chapter": "1 - 2",
-            "date": "22.10.19",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/2"
+            "date": "21.02.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol1/2"
         },
         {
             "chapter": "1 - 1",
-            "date": "26.09.19",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol1/1"
-        },
-        {
-            "chapter": "0 - 1 Сингл",
-            "date": "16.02.19",
-            "href": "/dosanko_giaru_chudo_kak_mily__A5238/vol0/1"
+            "date": "11.01.19",
+            "href": "/eta_farforovaia_kukla_vliubilas/vol1/1"
         }
     ],
-    "description": "Нацукава Цубаса только что переехал из Токио на Хоккайдо. Не имея представления о том, какое большое расстояние между населёнными пунктами в этом захолустье, он решил выйти из такси в соседнем городе зимой. И был шокирован, узнав, что до соседнего города идти целых 3 часа! Тут же он встретил досанко-гяру (родом с Хоккайдо) по имени Фуюки Минами, которая при -8° Цельсия ходит в стандартной одежде гяру: короткой юбке и с голыми ногами.",
-    "genres": "Жанры: школа, комедия, романтика, сэйнэн, повседневность",
+    "description": "Вакана Годзё — пятнадцатилетний ученик старшей школы, в прошлом получивший серьёзную психологическую травму на фоне своего увлечения. Впоследствии юноша изолировал себя от общества и начал вести затворнический образ жизни. Так продолжалось до тех пор, пока в жизнь Годзё не ворвалась Китагава — общительная гяру, полная его противоположность. Довольно скоро они разделили хобби друг с другом, что привело к их странным, но прочным отношениям.",
+    "genres": "Жанры: этти, повседневность, сёнэн, школа, романтика, комедия",
     "pictures_url": [
-        "https://staticrm.rmr.rocks/uploads/pics/01/41/944.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/50/264.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/58/856.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/58/857.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/73/806.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/75/186.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/75/187.jpg"
+        "https://staticrm.rmr.rocks/uploads/pics/01/18/368.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/37/213.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/58/617.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/58/618.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/76/336.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/76/337.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/76/869.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/76/870.jpg"
     ],
-    "rating": "4.61",
-    "title_en": "Dosanko Gyaru Is Mega Cute",
-    "title_jp": "Dosanko Gyaru wa Namaramenkoi",
-    "title_ru": "Досанко-гяру чудо как милы",
-    "volumes_and_status": "Томов: 7, выпуск продолжается",
-    "year": " 2019"
+    "rating": "4.75",
+    "title_en": "The dress-up doll that fell in love",
+    "title_jp": "Sono Bisque Doll wa Koi wo suru",
+    "title_ru": "Эта фарфоровая кукла влюбилась",
+    "volumes_and_status": "Томов: 10, выпуск продолжается",
+    "year": " 2018"
 }

@@ -40,6 +40,7 @@ class ReadManga:
         manga_info = items.select('.leftContent')
         manga_chapters = items.select('.table-hover tr')
         chapters = []
+
         for i in manga_info:
             pictures = i.find('div', {'class': 'subject-cover'}).find_all('img')
 
@@ -82,18 +83,34 @@ class ReadManga:
                 chapter_info.update({"date": " ".join(u.find_all('td', {'class': 'd-none'})[1].get_text().split())})
 
             chapters.append(chapter_info)
-        left_content.update({"chapters": chapters})
 
-        # pprint(left_content)
+            left_content.update({"chapters": chapters})
+        try:
+            with open('manga_data.json', 'w', encoding='utf-8') as file:
+                file.write(
+                    json.dumps(left_content, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+            return json.dumps(left_content, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+        except:
+            return 'Houston, we have a problem'
 
-        with open('manga_data.json', 'w', encoding='utf-8') as file:
-            file.write(json.dumps(left_content, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-        return json.dumps(left_content, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+    def reader(self, manga_url):
+        from manga_magic import main
 
+        items = self.get_content(manga_url)
+        manga_slides = items.select('.reader-controller')
+        for i in manga_slides:
+            script = str(i.find('script', type="text/javascript"))
 
+        script_array = script.split()
 
+        manga_pages = main(script_array)
 
+        with open('manga_pages.json', 'w', encoding='utf-8') as file:
+            file.write(json.dumps(manga_pages, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
+        return json.dumps(manga_pages, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
 
 
 q = ReadManga()
-q.get_manga('/dosanko_giaru_chudo_kak_mily__A5238')
+# q.get_manga('/eta_farforovaia_kukla_vliubilas/')
+# q.get_list_of_popular_titles()
+# q.reader('/dosanko_giaru_chudo_kak_mily__A5238/vol0/1')
