@@ -362,21 +362,21 @@
         }
     ],
     "description": "Вакана Годзё — пятнадцатилетний ученик старшей школы, в прошлом получивший серьёзную психологическую травму на фоне своего увлечения. Впоследствии юноша изолировал себя от общества и начал вести затворнический образ жизни. Так продолжалось до тех пор, пока в жизнь Годзё не ворвалась Китагава — общительная гяру, полная его противоположность. Довольно скоро они разделили хобби друг с другом, что привело к их странным, но прочным отношениям.",
-    "genres": "Жанры: этти, повседневность, сёнэн, школа, романтика, комедия",
+    "en_title": "The dress-up doll that fell in love",
+    "genres": "Жанры: повседневность, романтика, этти, комедия, сёнэн, школа",
+    "original_title": "Sono Bisque Doll wa Koi wo suru",
     "pictures_url": [
         "https://staticrm.rmr.rocks/uploads/pics/01/18/368.jpg",
+        "https://staticrm.rmr.rocks/uploads/pics/01/37/212.jpg",
         "https://staticrm.rmr.rocks/uploads/pics/01/37/213.jpg",
         "https://staticrm.rmr.rocks/uploads/pics/01/58/617.jpg",
         "https://staticrm.rmr.rocks/uploads/pics/01/58/618.jpg",
         "https://staticrm.rmr.rocks/uploads/pics/01/76/336.jpg",
         "https://staticrm.rmr.rocks/uploads/pics/01/76/337.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/76/869.jpg",
-        "https://staticrm.rmr.rocks/uploads/pics/01/76/870.jpg"
+        "https://staticrm.rmr.rocks/uploads/pics/01/76/869.jpg"
     ],
-    "rating": "4.75",
-    "title_en": "The dress-up doll that fell in love",
-    "title_jp": "Sono Bisque Doll wa Koi wo suru",
-    "title_ru": "Эта фарфоровая кукла влюбилась",
+    "rating": "4.74",
+    "ru_title": "Эта фарфоровая кукла влюбилась",
     "volumes_and_status": "Томов: 10, выпуск продолжается",
     "year": " 2018"
 }

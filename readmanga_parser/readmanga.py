@@ -1,28 +1,33 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-from pprint import pprint
 
 
 class ReadManga:
     URL = 'https://readmanga.io'
     HEADERS = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0'}
 
-    def get_content(self, link=''):
-        html = requests.get(self.URL + link, headers=self.HEADERS)
+    def request(self, link='', params=None):
+        html = requests.get(self.URL + link, headers=self.HEADERS, params=params)
+        return html
+
+    def get_content(self, link='', params=None):
+        html = self.request(link, params)
         if html.status_code == 200:
             soup = BeautifulSoup(html.text, 'html.parser')
             return soup
 
-    def get_list_of_popular_titles(self):
-        response = []
+    def get_popular(self):
         items = self.get_content().select('.rightBlock .mangaList li .manga-link')
-
+        response = []
+        print(self.get_content())
         for i in items:
             if i.get_text():
+                author = i.get('title').split(':')[0]
+                genres = i.get('title').split(':')[-1]
                 data = {"title": i.get_text(),
-                        "author": i.get('title').split(':')[0],
-                        "genres": i.get('title').split(': ')[-1],
+                        "author": author if author != genres else '',
+                        "genres": genres,
                         "manga_url": i.get('href'),
                         "picture_url": ""
                         }
@@ -31,9 +36,11 @@ class ReadManga:
             else:
                 data.update({"picture_url": i.get('rel')})
 
-        with open('popular.json', 'w', encoding='utf-8') as file:
-            file.write(json.dumps(response, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-        return json.dumps(response, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+        result = json.dumps(response, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+
+        with open('readmanga_parser/popular.json', 'w', encoding='utf-8') as file:
+            file.write(result)
+        return result
 
     def get_manga(self, manga_url):
         items = self.get_content(manga_url)
@@ -44,10 +51,16 @@ class ReadManga:
         for i in manga_info:
             pictures = i.find('div', {'class': 'subject-cover'}).find_all('img')
 
+            # sometimes titles can be without original title name
+            try:
+                original_title = i.find('h1', {'class': 'names'}).find_all('span')[2].get_text()
+            except IndexError:
+                original_title = ''
+
             left_content = {
-                "title_ru": i.find('h1', {'class': 'names'}).find_all('span')[0].get_text(),
-                "title_en": i.find('h1', {'class': 'names'}).find_all('span')[1].get_text(),
-                "title_jp": i.find('h1', {'class': 'names'}).find_all('span')[2].get_text(),
+                "ru_title": i.find('h1', {'class': 'names'}).find_all('span')[0].get_text(),
+                "en_title": i.find('h1', {'class': 'names'}).find_all('span')[1].get_text(),
+                "original_title": original_title,
 
                 "rating": i.find('div', {'class': 'col-sm-7'}).find('span', {'class': 'rating-block'}).get(
                     'data-score'),
@@ -85,16 +98,15 @@ class ReadManga:
             chapters.append(chapter_info)
 
             left_content.update({"chapters": chapters})
-        try:
-            with open('manga_data.json', 'w', encoding='utf-8') as file:
-                file.write(
-                    json.dumps(left_content, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-            return json.dumps(left_content, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
-        except:
-            return 'Houston, we have a problem'
+
+        result = json.dumps(left_content, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+
+        with open('readmanga_parser/manga_data.json', 'w', encoding='utf-8') as file:
+            file.write(result)
+        return result
 
     def reader(self, manga_url):
-        from manga_magic import main
+        from .manga_magic import main
 
         items = self.get_content(manga_url)
         manga_slides = items.select('.reader-controller')
@@ -110,13 +122,17 @@ class ReadManga:
             "next_chapter_url": next_chapter_url,
             "manga_pages": manga_pages
         }
+        result = json.dumps(manga_reader, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
 
-        with open('manga_reader.json', 'w', encoding='utf-8') as file:
-            file.write(json.dumps(manga_reader, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
-        return json.dumps(manga_reader, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+        with open('readmanga_parser/manga_reader.json', 'w', encoding='utf-8') as file:
+            file.write(result)
+        return result
 
+    def search(self, query=''):
+        items = self.request(link='/search/suggestion', params={'query': query}).json()
 
-q = ReadManga()
-# q.get_manga('/eta_farforovaia_kukla_vliubilas/')
-# q.get_list_of_popular_titles()
-# q.reader('/eta_farforovaia_kukla_vliubilas/vol1/1')
+        result = json.dumps(items, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False)
+
+        with open('readmanga_parser/manga_search.json', 'w', encoding='utf-8') as file:
+            file.write(result)
+        return result
