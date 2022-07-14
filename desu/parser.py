@@ -3,7 +3,6 @@ import datetime
 import calendar
 import requests
 from bs4 import BeautifulSoup
-# from firebase_service.cloud import CloudDb
 from firebase_service.cloud import CloudDb
 
 
