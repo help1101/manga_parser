@@ -1371,7 +1371,6 @@
                     "tl",
                     "hu",
                     "de",
-                    "ro",
                     "nl",
                     null
                 ],
@@ -1530,6 +1529,11 @@
                     "type": "cover_art"
                 },
                 {
+                    "id": "09806089-7a7d-41c3-a9e6-0f53b43d64ef",
+                    "related": "preserialization",
+                    "type": "manga"
+                },
+                {
                     "id": "2917e1b1-06c0-45fe-b30b-6688d83859b2",
                     "related": "doujinshi",
                     "type": "manga"
@@ -1628,6 +1632,12 @@
                     },
                     {
                         "th": "วันพันช์แมน"
+                    },
+                    {
+                        "he": "איש האגרוף הבודד"
+                    },
+                    {
+                        "he": "וואן פאנץ' מן"
                     }
                 ],
                 "availableTranslatedLanguages": [
@@ -1928,8 +1938,8 @@
                 "title": {
                     "en": "One Punch-Man"
                 },
-                "updatedAt": "2022-02-11T22:27:50+00:00",
-                "version": 29,
+                "updatedAt": "2022-03-28T05:12:55+00:00",
+                "version": 30,
                 "year": 2012
             },
             "id": "d8a959f7-648e-4c8d-8f23-f1f3f8e129f3",
@@ -3021,7 +3031,7 @@
             "attributes": {
                 "altTitles": [
                     {
-                        "en": "The Laid-back Life in Another World of the Ex-Hero Candidate, Who Got Cheat-level Magic At Level 2"
+                        "en": "chillin in another world with level 2 super cheat powers"
                     },
                     {
                         "ja": "LV2からチートだった元勇者候補のまったり異世界ライフ"
@@ -3253,8 +3263,8 @@
                 "title": {
                     "en": "Lv2 kara Cheat datta Moto Yuusha Kouho no Mattari Isekai Life"
                 },
-                "updatedAt": "2022-03-11T23:45:46+00:00",
-                "version": 42,
+                "updatedAt": "2022-03-28T13:19:12+00:00",
+                "version": 43,
                 "year": 2019
             },
             "id": "58bc83a0-1808-484e-88b9-17e167469e23",
@@ -3569,23 +3579,25 @@
                 },
                 {
                     "attributes": {
-                        "biography": [],
+                        "biography": {
+                            "en": "Alt names:\nRo・Ga\n\nCircle: Kurumaya (車ヤ)"
+                        },
                         "booth": null,
                         "createdAt": "2021-04-19T21:59:45+00:00",
                         "fanBox": null,
                         "fantia": null,
                         "imageUrl": null,
                         "melonBook": null,
-                        "name": "Roga",
+                        "name": "RoGa",
                         "naver": null,
                         "nicoVideo": null,
                         "pixiv": null,
                         "skeb": null,
                         "tumblr": null,
-                        "twitter": null,
-                        "updatedAt": "2021-04-19T21:59:45+00:00",
-                        "version": 1,
-                        "website": null,
+                        "twitter": "https://twitter.com/Romancing_RoGa",
+                        "updatedAt": "2022-03-31T20:08:29+00:00",
+                        "version": 2,
+                        "website": "http://rogalion.blog110.fc2.com/",
                         "weibo": null,
                         "youtube": null
                     },
@@ -4951,6 +4963,9 @@
                     },
                     {
                         "es-la": "La Oscura Masacre del Héroe Vengativo"
+                    },
+                    {
+                        "ja-ro": "Fukushuu o Koinegau Saikyou Yuusha wa, Yami no Chikara de Senmetsu Musou Suru"
                     }
                 ],
                 "availableTranslatedLanguages": [
@@ -5134,10 +5149,10 @@
                     }
                 ],
                 "title": {
-                    "en": "Fukushuu o Koinegau Saikyou Yuusha wa, Yami no Chikara de Senmetsu Musou Suru"
+                    "en": "Fukushuu wo Koinegau Saikyou Yuusha wa, Yami no Chikara de Senmetsu Musou Suru"
                 },
-                "updatedAt": "2022-02-18T23:59:22+00:00",
-                "version": 28,
+                "updatedAt": "2022-03-29T01:12:08+00:00",
+                "version": 29,
                 "year": 2019
             },
             "id": "bd38c075-8b12-450a-aeee-125e3ac5da4b",
@@ -6701,6 +6716,284 @@
             "attributes": {
                 "altTitles": [
                     {
+                        "ja-ro": "Isekai Meikyuu de Harem o"
+                    },
+                    {
+                        "ru": "Гарем рабов в лабиринте другого мира"
+                    },
+                    {
+                        "zh": "在异世界迷宫开后宫"
+                    },
+                    {
+                        "ja": "異世界迷宮でハーレムを"
+                    },
+                    {
+                        "ko": "이 세계 미궁에서 노예 하렘을"
+                    },
+                    {
+                        "en": "A Harem in the Fantasy World Dungeon"
+                    }
+                ],
+                "availableTranslatedLanguages": [
+                    "es-la",
+                    "fr",
+                    "ru",
+                    "en",
+                    "zh",
+                    "id",
+                    "pt-br",
+                    "es"
+                ],
+                "chapterNumbersResetOnNewVolume": false,
+                "contentRating": "erotica",
+                "createdAt": "2019-02-17T08:15:55+00:00",
+                "description": {
+                    "en": "A man was about to commit suicide and decides to search for a way to die in the internet, but then he found an odd site that asked a lot of questions and had a point based system that allows you to create skills and abilities for a character. He took interest in it and when he finished setting his character he was asked: \"You will now be transported to a world with the settings you choose, coming back is not possible, do you still accept?\" Without thinking much of it he pressed YES and found himself in another world with the skills and abilities he chose to have."
+                },
+                "isLocked": false,
+                "lastChapter": "",
+                "lastVolume": "",
+                "links": {
+                    "al": "99462",
+                    "amz": "https://www.amazon.co.jp/gp/product/B07D4FP6XQ",
+                    "ap": "isekai-meikyuu-de-harem-wo",
+                    "bw": "series/137934",
+                    "cdj": "http://www.cdjapan.co.jp/product/NEOBK-2148256",
+                    "ebj": "https://ebookjapan.yahoo.co.jp/books/431399/",
+                    "kt": "39725",
+                    "mal": "106608",
+                    "mu": "141448",
+                    "nu": "slave-harem-in-the-labyrinth-of-the-other-world-ln",
+                    "raw": "https://comic-walker.com/contents/detail/KDCW_KS01000061010000_68/"
+                },
+                "originalLanguage": "ja",
+                "publicationDemographic": "seinen",
+                "state": "published",
+                "status": "ongoing",
+                "tags": [
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "theme",
+                            "name": {
+                                "en": "Monsters"
+                            },
+                            "version": 1
+                        },
+                        "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "genre",
+                            "name": {
+                                "en": "Action"
+                            },
+                            "version": 1
+                        },
+                        "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "genre",
+                            "name": {
+                                "en": "Romance"
+                            },
+                            "version": 1
+                        },
+                        "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "genre",
+                            "name": {
+                                "en": "Adventure"
+                            },
+                            "version": 1
+                        },
+                        "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "theme",
+                            "name": {
+                                "en": "Magic"
+                            },
+                            "version": 1
+                        },
+                        "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "theme",
+                            "name": {
+                                "en": "Harem"
+                            },
+                            "version": 1
+                        },
+                        "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "genre",
+                            "name": {
+                                "en": "Isekai"
+                            },
+                            "version": 1
+                        },
+                        "id": "ace04997-f6bd-436e-b261-779182193d3d",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "genre",
+                            "name": {
+                                "en": "Fantasy"
+                            },
+                            "version": 1
+                        },
+                        "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "theme",
+                            "name": {
+                                "en": "Monster Girls"
+                            },
+                            "version": 1
+                        },
+                        "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "genre",
+                            "name": {
+                                "en": "Slice of Life"
+                            },
+                            "version": 1
+                        },
+                        "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
+                        "relationships": [],
+                        "type": "tag"
+                    },
+                    {
+                        "attributes": {
+                            "description": [],
+                            "group": "format",
+                            "name": {
+                                "en": "Adaptation"
+                            },
+                            "version": 1
+                        },
+                        "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
+                        "relationships": [],
+                        "type": "tag"
+                    }
+                ],
+                "title": {
+                    "en": "Isekai Meikyuu de Harem wo"
+                },
+                "updatedAt": "2022-03-29T01:13:07+00:00",
+                "version": 30,
+                "year": 2017
+            },
+            "id": "1389d660-b9b1-4c6a-81af-eab4dbf3f22b",
+            "relationships": [
+                {
+                    "attributes": {
+                        "biography": [],
+                        "booth": null,
+                        "createdAt": "2021-04-19T21:59:45+00:00",
+                        "fanBox": null,
+                        "fantia": null,
+                        "imageUrl": null,
+                        "melonBook": null,
+                        "name": "Sogano Shachi",
+                        "naver": null,
+                        "nicoVideo": null,
+                        "pixiv": null,
+                        "skeb": null,
+                        "tumblr": null,
+                        "twitter": null,
+                        "updatedAt": "2021-04-19T21:59:45+00:00",
+                        "version": 1,
+                        "website": null,
+                        "weibo": null,
+                        "youtube": null
+                    },
+                    "id": "4c143e6d-f3bd-4404-bb79-c2d952e3f5ac",
+                    "type": "author"
+                },
+                {
+                    "attributes": {
+                        "biography": [],
+                        "booth": null,
+                        "createdAt": "2021-04-19T21:59:45+00:00",
+                        "fanBox": null,
+                        "fantia": null,
+                        "imageUrl": null,
+                        "melonBook": null,
+                        "name": "Hyouju Issei",
+                        "naver": null,
+                        "nicoVideo": null,
+                        "pixiv": null,
+                        "skeb": null,
+                        "tumblr": null,
+                        "twitter": null,
+                        "updatedAt": "2021-04-19T21:59:45+00:00",
+                        "version": 1,
+                        "website": null,
+                        "weibo": null,
+                        "youtube": null
+                    },
+                    "id": "91e50da7-eb4f-4cbf-9c45-1ccad62bd6ba",
+                    "type": "artist"
+                },
+                {
+                    "attributes": {
+                        "createdAt": "2022-03-31T13:10:58+00:00",
+                        "description": "",
+                        "fileName": "db51fd67-86b7-4270-8317-d36d2af8b4e2.jpg",
+                        "locale": "ja",
+                        "updatedAt": "2022-03-31T13:10:58+00:00",
+                        "version": 1,
+                        "volume": "8"
+                    },
+                    "id": "adc208c4-d9f1-40b3-bc3c-dd0941e03a67",
+                    "type": "cover_art"
+                }
+            ],
+            "type": "manga"
+        },
+        {
+            "attributes": {
+                "altTitles": [
+                    {
                         "en": "Demon Slave"
                     },
                     {
@@ -7037,284 +7330,6 @@
             "attributes": {
                 "altTitles": [
                     {
-                        "ja-ro": "Isekai Meikyuu de Harem wo"
-                    },
-                    {
-                        "ru": "Гарем рабов в лабиринте другого мира"
-                    },
-                    {
-                        "zh": "在异世界迷宫开后宫"
-                    },
-                    {
-                        "ja": "異世界迷宮でハーレムを"
-                    },
-                    {
-                        "ko": "이 세계 미궁에서 노예 하렘을"
-                    },
-                    {
-                        "en": "A Harem in the Fantasy World Dungeon"
-                    }
-                ],
-                "availableTranslatedLanguages": [
-                    "es-la",
-                    "fr",
-                    "ru",
-                    "en",
-                    "zh",
-                    "id",
-                    "pt-br",
-                    "es"
-                ],
-                "chapterNumbersResetOnNewVolume": false,
-                "contentRating": "erotica",
-                "createdAt": "2019-02-17T08:15:55+00:00",
-                "description": {
-                    "en": "A man was about to commit suicide and decides to search for a way to die in the internet, but then he found an odd site that asked a lot of questions and had a point based system that allows you to create skills and abilities for a character. He took interest in it and when he finished setting his character he was asked: \"You will now be transported to a world with the settings you choose, coming back is not possible, do you still accept?\" Without thinking much of it he pressed YES and found himself in another world with the skills and abilities he chose to have."
-                },
-                "isLocked": false,
-                "lastChapter": "",
-                "lastVolume": "",
-                "links": {
-                    "al": "99462",
-                    "amz": "https://www.amazon.co.jp/gp/product/B07D4FP6XQ",
-                    "ap": "isekai-meikyuu-de-harem-wo",
-                    "bw": "series/137934",
-                    "cdj": "http://www.cdjapan.co.jp/product/NEOBK-2148256",
-                    "ebj": "https://ebookjapan.yahoo.co.jp/books/431399/",
-                    "kt": "39725",
-                    "mal": "106608",
-                    "mu": "141448",
-                    "nu": "slave-harem-in-the-labyrinth-of-the-other-world-ln",
-                    "raw": "https://comic-walker.com/contents/detail/KDCW_KS01000061010000_68/"
-                },
-                "originalLanguage": "ja",
-                "publicationDemographic": "seinen",
-                "state": "published",
-                "status": "ongoing",
-                "tags": [
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "theme",
-                            "name": {
-                                "en": "Monsters"
-                            },
-                            "version": 1
-                        },
-                        "id": "36fd93ea-e8b8-445e-b836-358f02b3d33d",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "genre",
-                            "name": {
-                                "en": "Action"
-                            },
-                            "version": 1
-                        },
-                        "id": "391b0423-d847-456f-aff0-8b0cfc03066b",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "genre",
-                            "name": {
-                                "en": "Romance"
-                            },
-                            "version": 1
-                        },
-                        "id": "423e2eae-a7a2-4a8b-ac03-a8351462d71d",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "genre",
-                            "name": {
-                                "en": "Adventure"
-                            },
-                            "version": 1
-                        },
-                        "id": "87cc87cd-a395-47af-b27a-93258283bbc6",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "theme",
-                            "name": {
-                                "en": "Magic"
-                            },
-                            "version": 1
-                        },
-                        "id": "a1f53773-c69a-4ce5-8cab-fffcd90b1565",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "theme",
-                            "name": {
-                                "en": "Harem"
-                            },
-                            "version": 1
-                        },
-                        "id": "aafb99c1-7f60-43fa-b75f-fc9502ce29c7",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "genre",
-                            "name": {
-                                "en": "Isekai"
-                            },
-                            "version": 1
-                        },
-                        "id": "ace04997-f6bd-436e-b261-779182193d3d",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "genre",
-                            "name": {
-                                "en": "Fantasy"
-                            },
-                            "version": 1
-                        },
-                        "id": "cdc58593-87dd-415e-bbc0-2ec27bf404cc",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "theme",
-                            "name": {
-                                "en": "Monster Girls"
-                            },
-                            "version": 1
-                        },
-                        "id": "dd1f77c5-dea9-4e2b-97ae-224af09caf99",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "genre",
-                            "name": {
-                                "en": "Slice of Life"
-                            },
-                            "version": 1
-                        },
-                        "id": "e5301a23-ebd9-49dd-a0cb-2add944c7fe9",
-                        "relationships": [],
-                        "type": "tag"
-                    },
-                    {
-                        "attributes": {
-                            "description": [],
-                            "group": "format",
-                            "name": {
-                                "en": "Adaptation"
-                            },
-                            "version": 1
-                        },
-                        "id": "f4122d1c-3b44-44d0-9936-ff7502c39ad3",
-                        "relationships": [],
-                        "type": "tag"
-                    }
-                ],
-                "title": {
-                    "en": "Isekai Meikyuu de Harem o"
-                },
-                "updatedAt": "2022-02-19T03:06:58+00:00",
-                "version": 29,
-                "year": 2017
-            },
-            "id": "1389d660-b9b1-4c6a-81af-eab4dbf3f22b",
-            "relationships": [
-                {
-                    "attributes": {
-                        "biography": [],
-                        "booth": null,
-                        "createdAt": "2021-04-19T21:59:45+00:00",
-                        "fanBox": null,
-                        "fantia": null,
-                        "imageUrl": null,
-                        "melonBook": null,
-                        "name": "Sogano Shachi",
-                        "naver": null,
-                        "nicoVideo": null,
-                        "pixiv": null,
-                        "skeb": null,
-                        "tumblr": null,
-                        "twitter": null,
-                        "updatedAt": "2021-04-19T21:59:45+00:00",
-                        "version": 1,
-                        "website": null,
-                        "weibo": null,
-                        "youtube": null
-                    },
-                    "id": "4c143e6d-f3bd-4404-bb79-c2d952e3f5ac",
-                    "type": "author"
-                },
-                {
-                    "attributes": {
-                        "biography": [],
-                        "booth": null,
-                        "createdAt": "2021-04-19T21:59:45+00:00",
-                        "fanBox": null,
-                        "fantia": null,
-                        "imageUrl": null,
-                        "melonBook": null,
-                        "name": "Hyouju Issei",
-                        "naver": null,
-                        "nicoVideo": null,
-                        "pixiv": null,
-                        "skeb": null,
-                        "tumblr": null,
-                        "twitter": null,
-                        "updatedAt": "2021-04-19T21:59:45+00:00",
-                        "version": 1,
-                        "website": null,
-                        "weibo": null,
-                        "youtube": null
-                    },
-                    "id": "91e50da7-eb4f-4cbf-9c45-1ccad62bd6ba",
-                    "type": "artist"
-                },
-                {
-                    "attributes": {
-                        "createdAt": "2021-10-15T01:23:59+00:00",
-                        "description": "",
-                        "fileName": "b2947555-a56a-4cb5-829c-9a94d9fc505b.png",
-                        "locale": "ja",
-                        "updatedAt": "2021-10-15T01:24:00+00:00",
-                        "version": 2,
-                        "volume": "7"
-                    },
-                    "id": "d29930db-d5b8-4f9f-89ac-39fa61186d3d",
-                    "type": "cover_art"
-                }
-            ],
-            "type": "manga"
-        },
-        {
-            "attributes": {
-                "altTitles": [
-                    {
                         "en": "Hori-san and Miyamura-kun"
                     },
                     {
@@ -7362,13 +7377,14 @@
                 ],
                 "availableTranslatedLanguages": [
                     "hu",
-                    "tr",
                     "es",
                     "en",
                     "pt-br",
+                    "vi",
                     "ru",
                     "fr",
-                    "id"
+                    "id",
+                    "tr"
                 ],
                 "chapterNumbersResetOnNewVolume": false,
                 "contentRating": "safe",
@@ -9564,22 +9580,37 @@
             "attributes": {
                 "altTitles": [
                     {
-                        "ja-ro": "Kaette kudasai! Akutsu-san"
-                    },
-                    {
-                        "ja-ro": "Yankee Musume"
-                    },
-                    {
-                        "ru": "Пожалуйста, иди домой, Акуцу-сан!"
+                        "ja": "帰ってください！ 阿久津さん"
                     },
                     {
                         "ja": "ヤンキー娘"
                     },
                     {
-                        "ja": "帰ってください！ 阿久津さん"
+                        "ja-ro": "Kaette Kudasai! Akutsu-san"
+                    },
+                    {
+                        "ja-ro": "Kaette Kudasai, Akutsu-san!"
+                    },
+                    {
+                        "ja-ro": "Yankee Musume"
+                    },
+                    {
+                        "vi": "Cút mẹ về nhà đi Akutsu!"
                     },
                     {
                         "uk": "Будь ласка, йди до дому, Акацу-сан!"
+                    },
+                    {
+                        "ru": "Пожалуйста, иди домой, Акуцу-сан!"
+                    },
+                    {
+                        "ru": "Пожалуйста, иди домой, Акуцу!"
+                    },
+                    {
+                        "zh": "请你回去吧！阿久津同学"
+                    },
+                    {
+                        "zh-hk": "請你回去吧！阿久津同學"
                     }
                 ],
                 "availableTranslatedLanguages": [
@@ -9615,7 +9646,7 @@
                     "raw": "https://web-ace.jp/youngaceup/contents/1000124"
                 },
                 "originalLanguage": "ja",
-                "publicationDemographic": "shounen",
+                "publicationDemographic": "seinen",
                 "state": "published",
                 "status": "ongoing",
                 "tags": [
@@ -9688,8 +9719,8 @@
                 "title": {
                     "en": "Please Go Home, Akutsu-san!"
                 },
-                "updatedAt": "2022-02-28T18:10:57+00:00",
-                "version": 262,
+                "updatedAt": "2022-03-28T22:56:42+00:00",
+                "version": 263,
                 "year": 2019
             },
             "id": "737a846b-2e67-4d63-9f7e-f54b3beebac4",
@@ -10120,5 +10151,5 @@
     "offset": 0,
     "response": "collection",
     "result": "ok",
-    "total": 48085
+    "total": 48177
 }

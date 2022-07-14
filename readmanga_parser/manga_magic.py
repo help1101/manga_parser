@@ -1,6 +1,7 @@
 import ast
 from urllib.parse import urljoin
 
+
 # script_array = ['<script', 'type="text/javascript">', 'var', 'prevLink', '=', 'false;', 'var', 'nextLink', '=', 'true;',
 #                 'var', 'nextChapterLink', '=', '"/eta_farforovaia_kukla_vliubilas/vol1/2";', 'rm_h.initReader(',
 #                 '[2,3],',
@@ -43,11 +44,9 @@ def to_object(element):
     pos_width = 2 + offset
     pos_height = 3 + offset
     # print(element)
-    return {
-        "width": element[pos_width],
-        "height": element[pos_height],
-        "full_url": urljoin(element[pos_image_part_1], element[pos_image_part_2])
-    }
+    return urljoin(element[pos_image_part_1], element[pos_image_part_2])
+    # "width": element[pos_width],
+    # "height": element[pos_height],
 
 
 def to_array_with_objects(multi_array):
@@ -59,7 +58,6 @@ def main(script_array):
     filtered_list = list(el)
     multi_array = to_multi_array(filtered_list[0])
     result = to_array_with_objects(multi_array)
+    # print(type(result))
     # print_array(result, "FINAL")
     return result
-
-

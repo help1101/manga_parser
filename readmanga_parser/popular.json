@@ -1,107 +1,109 @@
-[
-    {
-        "author": "Готогэ Коёхару",
-        "genres": " приключения, боевик, боевые искусства, сёнэн, история, фэнтези, сверхъестественное, трагедия, драма",
-        "manga_url": "/klinok__rassekaiuchii_demonov__A5327",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/00/80/809.jpg",
-        "title": "Клинок, рассекающий демонов"
-    },
-    {
-        "author": "Фукуда Синъити",
-        "genres": " комедия, романтика, этти, школа, повседневность, сёнэн",
-        "manga_url": "/eta_farforovaia_kukla_vliubilas",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/79/123.jpg",
-        "title": "Эта фарфоровая кукла влюбилась"
-    },
-    {
-        "author": "",
-        "genres": "приключения, фэнтези, сёнэн, игра, драма",
-        "manga_url": "/podniatie_urovnia_v_odinochku__A56ff",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/76/482.jpg",
-        "title": "Поднятие уровня в одиночку"
-    },
-    {
-        "author": "",
-        "genres": "романтика, исэкай, сёдзё, история, гарем",
-        "manga_url": "/pojalui__otkajus_ot_glavnogo_geroia_",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/76/919.jpg",
-        "title": "Пожалуй, откажусь от главного героя!"
-    },
-    {
-        "author": "",
-        "genres": "комедия, романтика, повседневность, приключения, сёдзё, история, фэнтези, исэкай, драма",
-        "manga_url": "/priemnaia_doch_protagonista",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/69/775.jpg",
-        "title": "Приёмная дочь протагониста"
-    },
-    {
-        "author": "",
-        "genres": "комедия, приключения, фэнтези, романтика, сёдзё, психология, гарем, исэкай, драма",
-        "manga_url": "/smert___edinstvennyi_konec_dlia_zlodeiki__A5327",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/70/230.jpg",
-        "title": "Смерть — единственный конец для злодейки"
-    },
-    {
-        "author": "Олд Сянь, Студия Мосспака",
-        "genres": " комедия, сёнэн-ай, романтика, драма, школа, повседневность",
-        "manga_url": "/19_dnei___odnajdy",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/00/79/477.jpg",
-        "title": "19 дней — Однажды"
-    },
-    {
-        "author": "",
-        "genres": "приключения, фэнтези, исэкай",
-        "manga_url": "/nachalo_posle_konca__A56ff",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/49/514.jpg",
-        "title": "Начало после конца"
-    },
-    {
-        "author": "",
-        "genres": "комедия, школа, боевик, боевые искусства",
-        "manga_url": "/borba_v_priamom_efire__A201945",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/47/159.jpg",
-        "title": "Борьба в прямом эфире"
-    },
-    {
-        "author": "",
-        "genres": "детектив, романтика, сёдзё, сверхъестественное, исэкай, драма",
-        "manga_url": "/nevesta_gercoga_po_kontraktu__A56ff",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/15/801.jpg",
-        "title": "Невеста герцога по контракту"
-    },
-    {
-        "author": "Момо",
-        "genres": " романтика, приключения, боевик, героическое фэнтези, боевые искусства, сёнэн, гарем, фэнтези, сверхъестественное, этти",
-        "manga_url": "/pik_boevyh_iskusstv",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/45/320_crp_1.jpg",
-        "title": "Пик боевых искусств"
-    },
-    {
-        "author": "",
-        "genres": "комедия, романтика, дзёсэй, драма, повседневность",
-        "manga_url": "/ofisnoe_svidanie_vslepuiu__A56ff",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/78/592.jpg",
-        "title": "Офисное свидание вслепую"
-    },
-    {
-        "author": "",
-        "genres": "постапокалиптика, приключения, сёнэн, фэнтези",
-        "manga_url": "/vseveduchii_chitatel__A56ff",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/48/149.jpg",
-        "title": "Всеведущий читатель"
-    },
-    {
-        "author": "",
-        "genres": "романтика, сёдзё, гарем, фэнтези, исэкай, драма",
-        "manga_url": "/odnajdy_ia_stala_princessoi__A56ff",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/47/695.jpg",
-        "title": "Однажды я стала принцессой"
-    },
-    {
-        "author": "",
-        "genres": "фэнтези, дзёсэй, романтика, драма, история",
-        "manga_url": "/moi_rodstvenniki_oderjimy_mnoi",
-        "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/74/894.jpg",
-        "title": "Мои родственники одержимы мной"
-    }
-]
+{
+    "popular": [
+        {
+            "title": "19 дней — Однажды",
+            "author": "Олд Сянь, Студия Мосспака",
+            "genres": " сёнэн-ай, комедия, романтика, драма, повседневность, школа",
+            "manga_url": "/19_dnei___odnajdy",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/00/79/477.jpg"
+        },
+        {
+            "title": "Поднятие уровня в одиночку",
+            "author": "",
+            "genres": "фэнтези, сёнэн, драма, игра, приключения",
+            "manga_url": "/podniatie_urovnia_v_odinochku__A56ff",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/76/482.jpg"
+        },
+        {
+            "title": "Эта фарфоровая кукла влюбилась",
+            "author": "Фукуда Синъити",
+            "genres": " сёнэн, комедия, романтика, этти, повседневность, школа",
+            "manga_url": "/eta_farforovaia_kukla_vliubilas",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/79/123.jpg"
+        },
+        {
+            "title": "Клинок, рассекающий демонов",
+            "author": "Готогэ Коёхару",
+            "genres": " сёнэн, трагедия, драма, боевик, сверхъестественное, боевые искусства, фэнтези, история, приключения",
+            "manga_url": "/klinok__rassekaiuchii_demonov__A5327",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/00/80/809.jpg"
+        },
+        {
+            "title": "Я так и не смогла усмирить эту злую натуру",
+            "author": "",
+            "genres": "дзёсэй, исэкай, фэнтези, трагедия, романтика, драма",
+            "manga_url": "/ia_tak_i_ne_smogla_usmirit_etu_zluiu_naturu",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/77/173.jpg"
+        },
+        {
+            "title": "Мемуары Ванитаса",
+            "author": "Мотидзуки Дзюн",
+            "genres": " сёнэн, комедия, история, драма, приключения, сверхъестественное",
+            "manga_url": "/memuary_vanitasa",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/04/796.jpg"
+        },
+        {
+            "title": "Начало после конца",
+            "author": "",
+            "genres": "фэнтези, исэкай, приключения",
+            "manga_url": "/nachalo_posle_konca__A56ff",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/49/514.jpg"
+        },
+        {
+            "title": "Борьба в прямом эфире",
+            "author": "",
+            "genres": "боевик, школа, боевые искусства, комедия",
+            "manga_url": "/borba_v_priamom_efire__A201945",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/47/159.jpg"
+        },
+        {
+            "title": "Приёмная дочь протагониста",
+            "author": "",
+            "genres": "исэкай, драма, повседневность, фэнтези, сёдзё, комедия, романтика, история, приключения",
+            "manga_url": "/priemnaia_doch_protagonista",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/69/775.jpg"
+        },
+        {
+            "title": "Возвращение героя уровня катастрофы",
+            "author": "",
+            "genres": "сёнэн, героическое фэнтези, фэнтези, драма, приключения, боевик",
+            "manga_url": "/vozvrachenie_geroia_katastrofy_2021",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/75/630.jpg"
+        },
+        {
+            "title": "Пожалуй, откажусь от главного героя!",
+            "author": "",
+            "genres": "исэкай, гарем, сёдзё, романтика, история",
+            "manga_url": "/pojalui__otkajus_ot_glavnogo_geroia_",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/76/919.jpg"
+        },
+        {
+            "title": "Выходи замуж за моего супруга",
+            "author": "",
+            "genres": "дзёсэй, романтика, драма, сверхъестественное",
+            "manga_url": "/vyhodi_zamuj_za_moego_supruga",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/81/395.jpg"
+        },
+        {
+            "title": "Мир после падения",
+            "author": "",
+            "genres": "сёнэн, постапокалиптика, драма, боевик, фэнтези, приключения",
+            "manga_url": "/mir_posle_padeniia",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/77/071.jpg"
+        },
+        {
+            "title": "Я стала вороной",
+            "author": "",
+            "genres": "исэкай, фэнтези, сёдзё, комедия, романтика, приключения",
+            "manga_url": "/ia_stala_voronoi",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/77/348.jpg"
+        },
+        {
+            "title": "Мой второй муж бесподобен, потому я опечалена",
+            "author": "",
+            "genres": "фэнтези, сёдзё, романтика, драма",
+            "manga_url": "/moi_vtoroi_muj_bespodoben__potomu_ia_opechalena",
+            "picture_url": "https://staticrm.rmr.rocks/uploads/pics/01/76/793.jpg"
+        }
+    ]
+}
