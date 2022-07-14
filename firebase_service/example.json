@@ -1,0 +1,92 @@
+{
+  "catalogue": {
+    "language": {
+      "ua": {
+        "manga_in_ua": {
+          "manga_info": {
+            "titles": ["Атака титанів"],
+            "img": "https://manga.in.ua/uploads/posts/2022-05/1651500393_55-0.webp",
+            "names": [
+              "Атака титанів"
+            ],
+            "authors": [
+              "Ісаяма Хаджіме"
+            ],
+            "genres": [
+              "Бойовик",
+              "Детектив",
+              "Драма",
+              "Жахи",
+              "Надприродне",
+              "Наукова фантастика",
+              "Суперсила",
+              "Шьонен"
+            ],
+            "type": "МАНҐА",
+            "rating": "4.73/5",
+            "description": "Сотню років тому людство звело три величезні стіни, щоби врятуватися від нашестя титанів – гігантських істот-людожерів - і спокійно жило під їхнім захистом, майже нічого не знаючи про зовнішній світ. Та одного дня титани пробили зовнішню стіну і заполонили міста, змусивши людей покинути свої домівки та тікати. Головний герой, Ерен Єґер, разом зі своїми друзями вступає до армії, щоби помститися титанам та досягти своєї мрії – побачити світ поза стінами…",
+            "manga_href": "https://manga.in.ua/mangas/boyovik/15-ataka-titaniv-shingeki-no-kyojin.html",
+            "manga_status": true
+          },
+          "chapters": {
+            "chapter_info": {
+              "name": "Том 14. Розділ 56 - Актори",
+              "date": "11.05.22",
+              "chapter_href": "https://manga.in.ua/chapters/12516-ataka-titaniv-tom-14-rozdil-56.html",
+              "imagesUrls": [
+                "https://manga.in.ua/uploads/posts/2022-05/1652946121_56-0.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946056_56-1.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946053_56-2.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946051_56-3.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946127_56-4.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946088_56-5.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946064_56-6.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946065_56-7.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946133_56-8.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946080_56-9.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946139_56-10.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946084_56-11.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946122_56-12.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946154_56-13.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946137_56-14.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946109_56-15.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946115_56-16.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946095_56-17.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946098_56-18.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946172_56-19.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946184_56-20.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946108_56-21.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946147_56-22.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946106_56-23.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946174_56-24.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946138_56-25.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946182_56-26.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946161_56-27.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946171_56-28.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946198_56-29.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946119_56-30.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946205_56-31.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946173_56-32.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946138_56-33.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946129_56-34.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946181_56-35.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946171_56-36.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946198_56-37.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946192_56-38.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946218_56-39.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946211_56-40.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946184_56-41.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946175_56-42.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946225_56-43.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946155_56-44.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946196_56-45.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946200_56-46.webp",
+                "https://manga.in.ua/uploads/posts/2022-05/1652946134_56-47.webp"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
